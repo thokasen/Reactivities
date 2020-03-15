@@ -31,6 +31,7 @@ namespace Application.Profiles
                 {
                     Bio = user.Bio,
                     DisplayName = user.DisplayName,
+                    Username = user.UserName,
                     Image = user.Photos.FirstOrDefault(x => x.IsMain)?.Url,
                     Photos = user.Photos,
                 };
