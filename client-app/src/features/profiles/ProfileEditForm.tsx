@@ -4,7 +4,6 @@ import { combineValidators, isRequired } from "revalidate";
 import { Button, Form } from "semantic-ui-react";
 import TextInput from "../../app/common/form/TextInput";
 import TextAreaInput from "../../app/common/form/TextAreaInput";
-
 import { IProfile } from "../../app/models/profile";
 
 const validate = combineValidators({
