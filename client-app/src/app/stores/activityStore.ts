@@ -52,9 +52,9 @@ export default class ActivityStore {
       });
     });
 
-    this.hubConnection.on("Send", message => {
-      toast.info(message);
-    });
+    // this.hubConnection.on("Send", message => {
+    //   toast.info(message);
+    // });
   };
 
   @action stopHubConnection = () => {
